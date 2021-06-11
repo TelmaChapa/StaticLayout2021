@@ -1,0 +1,177 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+
+.navBarMain {
+    background-color: #2d2d2d;
+    margin: auto;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    display: inline-flex;
+    top: 0;
+    z-index: 2;
+    text-align: center;
+    font-weight: 700;
+}
+
+.navBarMain a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+    font-family: 'Overpass', 'Open Sans', Ariel, Halvetica, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navBarMain img {
+    height: 75px;
+    float: left;
+}
+
+#logo {
+    width: 65px;
+    height: 60px;
+    float: top left;
+    z-index: 20;
+    top: -1px;
+}
+
+.blueNav {
+    height: 18px;
+    background-color: #1d75a1;
+    display: inline-block;
+    font-family: 'Overpass', 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    right: 125px;
+    z-index: 2;
+    position: fixed;
+    padding-top: 22px;
+    border-left: solid white 3px;
+    text-decoration: none;
+}
+
+#redNav {
+    height: 20px;
+    background-color: red;
+    display: inline-block;
+    font-family: 'Overpass', 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    right: 0;
+    z-index: 2;
+    position: fixed;
+    border-left: solid white 3px;
+    text-decoration: none;
+}
+
+.navB:hover a{
+    background-color: #2d2d2d;
+}
+
+#bluebar:hover {
+    background-color: #1d75a1;
+}
+
+#redbar:hover {
+    background-color: red;
+}
+
+#videoBackground {
+    margin: 0px;
+    position: relative;
+    top: -20px;
+    z-index: 0;
+}
+
+#mainInfo {
+    width: 100%;
+    height: 650px;
+    margin: 0;
+    position: relative;
+    justify-content: space-evenly;
+    z-index: 0;
+    left: 0;
+    margin-top: -145px;
+    position: absolute;
+    display: block;
+    background-color: #efefef;
+}
+
+.infoBox {
+    height: 350px;
+    width: 275px;
+    position: relative;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    margin: 100px 10px 100px 10px;
+    left: 500px;
+    top: -60px;
+    z-index: 1;
+}
+
+.infoBox:hover {
+    background-color: #d1cfcf;
+}
+
+#courseInfo {
+    color: #348db9;
+    font-size: 60px;
+    font-family: 'Overpass', Helvetica, Arial, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 50px;
+    z-index: 1;
+}
+
+h2 {
+    font-family: 'Overpass', Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    color: #2d2d2d;
+    font-weight: 600;
+    padding: 10px 10px 0px 10px;
+    text-align: left;
+}
+
+p {
+    font-family: 'Overpass', Helvetica, Arial, sans-serif;
+    color: #676767;
+    font-size: 18px;
+    font-weight: 400;
+    box-sizing: inherit;
+    padding: 10px;
+    line-height: 1.4;
+    letter-spacing: .025em;
+}
+
+h3 {
+    padding: 15px;
+    color: white;
+    background-color: #e33e42;
+    text-align: center;
+    width: 245px;
+    font-family: 'Overpass', 'Halvetica', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    position: relative;
+    top: -10px;
+    left: -1px;
+    z-index: 1;
+    text-decoration: none;
+}
+
+h3:hover {
+    background-color: #BA1D22;
+}
